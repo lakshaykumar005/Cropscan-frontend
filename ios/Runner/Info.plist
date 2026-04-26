@@ -76,5 +76,10 @@
 	<string>CropScan uses your location to fetch real-time local weather data and satellite NDVI for accurate crop health analysis.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>CropScan uses your location to fetch real-time local weather data and satellite NDVI for accurate crop health analysis.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
